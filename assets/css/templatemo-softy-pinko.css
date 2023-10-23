@@ -1586,3 +1586,14 @@ preloader
     opacity: 0;
   }
 }
+
+@media screen and (min-width: 300px) and  (max-width: 767px) {
+  .ocultar-div{
+    display:none;
+  }
+}
+@media screen and (min-width: 300px) and  (max-width: 767px){
+  .mostrar-div{
+    display:block !important;
+  }
+}
